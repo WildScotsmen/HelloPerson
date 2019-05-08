@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\Jacob\Source\Repos\HelloPerson\HelloPerson\HelloPerson.xml</DocumentationFile>
+    <DocumentationFile></DocumentationFile>
+    <OutputPath>C:\Users\jmccloughan\Documents\Practice\CSharp\Builds\HelloPerson\</OutputPath>
   </PropertyGroup>
 
 </Project>

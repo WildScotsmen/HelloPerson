@@ -1,4 +1,4 @@
-﻿namespace HelloPerson
+﻿namespace HelloPerson.Enum
 {
     /// <summary>
     /// An enumeration of gender identities.

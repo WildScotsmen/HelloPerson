@@ -18,17 +18,17 @@ namespace HelloPerson
             // Creating some people.
             Person person = new Person();
             Person person2 = new Person("Scoots", "McCloughan");
-            Person person3 = new Person("Joe", "Biden", Gender.Male, SexualOrientation.Straight);
+            Person person3 = new Person("Joe", "Biden", Enum.Gender.Male, Enum.SexualOrientation.Straight);
 
             // Giving qualities to the first person.
             person.FirstName = "Torahiko";
             person.LastName = "Ooshima";
-            person.Gender = Gender.Male;
-            person.SexualOrientation = SexualOrientation.Gay;
+            person.Gender = Enum.Gender.Male;
+            person.SexualOrientation = Enum.SexualOrientation.Gay;
 
             // Giving qualities to the second person.
-            person2.Gender = Gender.Nonbinary;
-            person2.SexualOrientation = SexualOrientation.Pansexual;
+            person2.Gender = Enum.Gender.Nonbinary;
+            person2.SexualOrientation = Enum.SexualOrientation.Pansexual;
 
             // Creating a list of people.
             List<Person> people = new List<Person>

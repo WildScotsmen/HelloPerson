@@ -30,7 +30,7 @@ namespace HelloPerson
         /// <value>
         /// Gets and sets the gender identity of the person.
         /// </value>
-        public Gender Gender { get; set; }
+        public Enum.Gender Gender { get; set; }
 
         /// <summary>
         /// The sexual orientation of the person.
@@ -38,7 +38,7 @@ namespace HelloPerson
         /// <value>
         /// Gets and sets the sexual orientation of the person.
         /// </value>
-        public SexualOrientation SexualOrientation { get; set; }
+        public Enum.SexualOrientation SexualOrientation { get; set; }
 
         /// <summary>
         /// Basic constructor for the class.
@@ -60,7 +60,7 @@ namespace HelloPerson
         /// <param name="l">The person's last name.</param>
         /// <param name="g">The person's gender identity.</param>
         /// <param name="s">The person's sexual orientation.</param>
-        public Person(string f, string l, Gender g, SexualOrientation s) =>
+        public Person(string f, string l, Enum.Gender g, Enum.SexualOrientation s) =>
             (FirstName, LastName, Gender, SexualOrientation) = (f, l, g, s);
 
         /// <summary>
