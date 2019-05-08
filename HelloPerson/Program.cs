@@ -1,5 +1,8 @@
 ﻿using System.Collections.Generic;
 
+/// <summary>
+/// The namespace for the application.
+/// </summary>
 namespace HelloPerson
 {
     /// <summary>

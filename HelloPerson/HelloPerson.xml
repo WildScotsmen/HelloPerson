@@ -4,51 +4,51 @@
         <name>HelloPerson</name>
     </assembly>
     <members>
-        <member name="T:Gender">
+        <member name="T:HelloPerson.Gender">
             <summary>
             An enumeration of gender identities.
             </summary>
             <see href="http://www.transstudent.org/definitions/"/>
         </member>
-        <member name="F:Gender.Male">
+        <member name="F:HelloPerson.Gender.Male">
             <summary>The male gender.</summary>
         </member>
-        <member name="F:Gender.Female">
+        <member name="F:HelloPerson.Gender.Female">
             <summary>The female gender.</summary>
         </member>
-        <member name="F:Gender.Nonbinary">
+        <member name="F:HelloPerson.Gender.Nonbinary">
             <summary>A blanket term for all people who do not identify as male or female.</summary>
         </member>
-        <member name="T:SexualOrientation">
+        <member name="T:HelloPerson.SexualOrientation">
             <summary>
             An enumeration of gender identities.
             </summary>
             <see href="https://www.plannedparenthood.org/learn/sexual-orientation-gender/sexual-orientation"/>
         </member>
-        <member name="F:SexualOrientation.Straight">
+        <member name="F:HelloPerson.SexualOrientation.Straight">
             <summary>Attracted to the opposite sex.</summary>
         </member>
-        <member name="F:SexualOrientation.Gay">
+        <member name="F:HelloPerson.SexualOrientation.Gay">
             <summary>Attracted to the same sex.</summary>
         </member>
-        <member name="F:SexualOrientation.Bisexual">
+        <member name="F:HelloPerson.SexualOrientation.Bisexual">
             <summary>Attracted to both sexes.</summary>
         </member>
-        <member name="F:SexualOrientation.Pansexual">
+        <member name="F:HelloPerson.SexualOrientation.Pansexual">
             <summary>Attracted to anyone, regardless of gender identity.</summary>
         </member>
-        <member name="F:SexualOrientation.Asexual">
+        <member name="F:HelloPerson.SexualOrientation.Asexual">
             <summary>Does not experience attraction.</summary>
         </member>
-        <member name="F:SexualOrientation.Demisexual">
+        <member name="F:HelloPerson.SexualOrientation.Demisexual">
             <summary>Only experiences attraction if a strong bond is present.</summary>
         </member>
-        <member name="T:Person">
+        <member name="T:HelloPerson.Person">
             <summary>
             A class that represents a person.
             </summary>
         </member>
-        <member name="P:Person.FirstName">
+        <member name="P:HelloPerson.Person.FirstName">
             <summary>
             The first name of the person.
             </summary>
@@ -56,7 +56,7 @@
             Gets and sets the first name of the person.
             </value>
         </member>
-        <member name="P:Person.LastName">
+        <member name="P:HelloPerson.Person.LastName">
             <summary>
             The last name of the person.
             </summary>
@@ -64,7 +64,7 @@
             Gets and sets the last name of the person.
             </value>
         </member>
-        <member name="P:Person.Gender">
+        <member name="P:HelloPerson.Person.Gender">
             <summary>
             The gender the person identifies as.
             </summary>
@@ -72,7 +72,7 @@
             Gets and sets the gender identity of the person.
             </value>
         </member>
-        <member name="P:Person.SexualOrientation">
+        <member name="P:HelloPerson.Person.SexualOrientation">
             <summary>
             The sexual orientation of the person.
             </summary>
@@ -80,19 +80,19 @@
             Gets and sets the sexual orientation of the person.
             </value>
         </member>
-        <member name="M:Person.#ctor">
+        <member name="M:HelloPerson.Person.#ctor">
             <summary>
             Basic constructor for the class.
             </summary>
         </member>
-        <member name="M:Person.#ctor(System.String,System.String)">
+        <member name="M:HelloPerson.Person.#ctor(System.String,System.String)">
             <summary>
             Parameterized constructor for the class.
             </summary>
             <param name="f">The person's first name.</param>
             <param name="l">The person's last name.</param>
         </member>
-        <member name="M:Person.#ctor(System.String,System.String,Gender,SexualOrientation)">
+        <member name="M:HelloPerson.Person.#ctor(System.String,System.String,HelloPerson.Gender,HelloPerson.SexualOrientation)">
             <summary>
             Parameterized constructor for the class.
             </summary>
@@ -101,7 +101,7 @@
             <param name="g">The person's gender identity.</param>
             <param name="s">The person's sexual orientation.</param>
         </member>
-        <member name="M:Person.SayHello">
+        <member name="M:HelloPerson.Person.SayHello">
             <summary>
             The person introduces themselves.
             </summary>
