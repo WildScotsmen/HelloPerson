@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HelloPerson</name>
+    </assembly>
+    <members>
+        <member name="T:Gender">
+            <summary>
+            An enumeration of gender identities.
+            </summary>
+            <see href="http://www.transstudent.org/definitions/"/>
+        </member>
+        <member name="F:Gender.Male">
+            <summary>The male gender.</summary>
+        </member>
+        <member name="F:Gender.Female">
+            <summary>The female gender.</summary>
+        </member>
+        <member name="F:Gender.Nonbinary">
+            <summary>A blanket term for all people who do not identify as male or female.</summary>
+        </member>
+        <member name="T:SexualOrientation">
+            <summary>
+            An enumeration of gender identities.
+            </summary>
+            <see href="https://www.plannedparenthood.org/learn/sexual-orientation-gender/sexual-orientation"/>
+        </member>
+        <member name="F:SexualOrientation.Straight">
+            <summary>Attracted to the opposite sex.</summary>
+        </member>
+        <member name="F:SexualOrientation.Gay">
+            <summary>Attracted to the same sex.</summary>
+        </member>
+        <member name="F:SexualOrientation.Bisexual">
+            <summary>Attracted to both sexes.</summary>
+        </member>
+        <member name="F:SexualOrientation.Pansexual">
+            <summary>Attracted to anyone, regardless of gender identity.</summary>
+        </member>
+        <member name="F:SexualOrientation.Asexual">
+            <summary>Does not experience attraction.</summary>
+        </member>
+        <member name="F:SexualOrientation.Demisexual">
+            <summary>Only experiences attraction if a strong bond is present.</summary>
+        </member>
+        <member name="T:Person">
+            <summary>
+            A class that represents a person.
+            </summary>
+        </member>
+        <member name="P:Person.FirstName">
+            <summary>
+            The first name of the person.
+            </summary>
+            <value>
+            Gets and sets the first name of the person.
+            </value>
+        </member>
+        <member name="P:Person.LastName">
+            <summary>
+            The last name of the person.
+            </summary>
+            <value>
+            Gets and sets the last name of the person.
+            </value>
+        </member>
+        <member name="P:Person.Gender">
+            <summary>
+            The gender the person identifies as.
+            </summary>
+            <value>
+            Gets and sets the gender identity of the person.
+            </value>
+        </member>
+        <member name="P:Person.SexualOrientation">
+            <summary>
+            The sexual orientation of the person.
+            </summary>
+            <value>
+            Gets and sets the sexual orientation of the person.
+            </value>
+        </member>
+        <member name="M:Person.#ctor">
+            <summary>
+            Basic constructor for the class.
+            </summary>
+        </member>
+        <member name="M:Person.#ctor(System.String,System.String)">
+            <summary>
+            Parameterized constructor for the class.
+            </summary>
+            <param name="f">The person's first name.</param>
+            <param name="l">The person's last name.</param>
+        </member>
+        <member name="M:Person.#ctor(System.String,System.String,Gender,SexualOrientation)">
+            <summary>
+            Parameterized constructor for the class.
+            </summary>
+            <param name="f">The person's first name.</param>
+            <param name="l">The person's last name.</param>
+            <param name="g">The person's gender identity.</param>
+            <param name="s">The person's sexual orientation.</param>
+        </member>
+        <member name="M:Person.SayHello">
+            <summary>
+            The person introduces themselves.
+            </summary>
+            <remarks>
+            The greeting includes the person's full name, gender, and 
+            sexual orientation.
+            </remarks>
+        </member>
+        <member name="T:HelloPerson.Program">
+            <summary>
+            The driving class of the application.
+            </summary>
+        </member>
+        <member name="M:HelloPerson.Program.Main">
+            <summary>
+            The main method. Ran at the start.
+            </summary>
+        </member>
+    </members>
+</doc>
